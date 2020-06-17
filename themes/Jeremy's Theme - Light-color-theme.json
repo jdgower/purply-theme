@@ -39,7 +39,11 @@
     "tab.activeBackground": "#fcfcfc",
     "tab.activeBorder": "#8F7EE6",
     "tab.border": "#e2e6e7",
-    "tab.inactiveBackground": "#e2e6e7"
+    "tab.inactiveBackground": "#e2e6e7",
+    "button.background": "#8F7EE6",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#ab9df0",
+    "terminal.ansiRed": "#ffe2e2"
   },
   "tokenColors": [
     {
