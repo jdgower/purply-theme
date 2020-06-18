@@ -63,7 +63,7 @@
       "name": "Keywords and Storage types",
       "scope": ["comment.line"],
       "settings": {
-        "foreground": "#8F7EE6",
+        "foreground": "#bbbbbb",
         "fontStyle": "italic"
       }
     },
@@ -102,7 +102,6 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#f3ad4a"
       }
     },
@@ -117,8 +116,7 @@
       "name": "JavaScript Other Variable",
       "scope": "variable.other.object.js",
       "settings": {
-        "foreground": "#e28606",
-        "fontStyle": "italic"
+        "foreground": "#e28606"
       }
     },
     {
@@ -181,7 +179,6 @@
       "name": "Function name",
       "scope": ["entity.name.function"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#137edc"
       }
     },
@@ -189,8 +186,7 @@
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#de0707",
-        "fontStyle": ""
+        "foreground": "#de0707"
       }
     },
     {
@@ -222,8 +218,7 @@
       "name": "Variable Property Other object property",
       "scope": ["variable.other.object.property"],
       "settings": {
-        "foreground": "#e28606",
-        "fontStyle": "italic"
+        "foreground": "#e28606"
       }
     },
     {
@@ -280,8 +275,7 @@
         "storage.type.property.ts"
       ],
       "settings": {
-        "foreground": "#8F7EE6",
-        "fontStyle": "italic"
+        "foreground": "#8F7EE6"
       }
     },
     {
@@ -353,7 +347,6 @@
     {
       "scope": ["markup.quote.markdown"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#137edc"
       }
     },
@@ -370,7 +363,6 @@
         "markup.fenced_code.block.markdown"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#137edc"
       }
     },
@@ -379,7 +371,7 @@
       "scope": "comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c5c5c5"
+        "foreground": "#bbbbbb"
       }
     },
     {
@@ -442,8 +434,7 @@
       "name": "Quotes",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#8F7EE6",
-        "fontStyle": "italic"
+        "foreground": "#8F7EE6"
       }
     },
     {
@@ -544,7 +535,6 @@
       "name": "Meta - Decorator",
       "scope": ["punctuation.decorator"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#e28606"
       }
     },
