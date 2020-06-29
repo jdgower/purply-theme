@@ -1,21 +1,23 @@
 {
-    "name": "jeremy-s-theme---light",
-    "displayName": "Jeremy's Theme - Light",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.46.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Jeremy's Theme - Light",
-                "uiTheme": "vs",
-                "path": "./themes/Jeremy's Theme - Light-color-theme.json"
-            }
-        ]
-    }
+  "name": "purply-theme",
+  "displayName": "Purply Theme",
+  "publisher": "jeremy-gower",
+  "repository": "https://github.com/jdgower/purply-theme",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purply Theme",
+        "uiTheme": "vs",
+        "path": "./themes/light-color-theme.json"
+      }
+    ]
+  }
 }
