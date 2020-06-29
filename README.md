@@ -6,4 +6,6 @@ This is a purply theme (light) with the following features:
 - Other colors
 - Overall...it is quite purply
 
+![HTML](images/image-1.png)
+
 **Enjoy!**
