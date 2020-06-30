@@ -3,8 +3,20 @@
   "displayName": "Purply Theme",
   "publisher": "jeremy-gower",
   "repository": "https://github.com/jdgower/purply-theme",
-  "description": "",
-  "version": "1.0.1",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#9479ed",
+    "theme": "light"
+  },
+  "description": "A light theme that attempts to look good. It is the purplyest of themes.",
+  "keywords": [
+    "light",
+    "theme",
+    "purple",
+    "color",
+    "awesome"
+  ],
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.46.0"
   },
