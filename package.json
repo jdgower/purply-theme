@@ -1,6 +1,6 @@
 {
   "name": "purply-theme",
-  "displayName": "Purply Theme",
+  "displayName": "Purply",
   "publisher": "jeremy-gower",
   "repository": "https://github.com/jdgower/purply-theme",
   "icon": "images/icon.png",
@@ -26,9 +26,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Purply Theme",
+        "label": "Purply (Light)",
         "uiTheme": "vs",
         "path": "./themes/light-color-theme.json"
+      },
+      {
+        "label": "Purply (Dark)",
+        "uiTheme": "vs",
+        "path": "./themes/dark-color-theme.json"
       }
     ]
   }
