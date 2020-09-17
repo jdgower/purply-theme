@@ -8,7 +8,7 @@
     "color": "#9479ed",
     "theme": "dark"
   },
-  "description": "A light theme that attempts to look good. It is the purplyest of themes.",
+  "description": "A light theme that attempts to look good. It is the purplyest of themes. There's also a dark version. It's OK.",
   "keywords": [
     "light",
     "theme",
@@ -16,7 +16,7 @@
     "color",
     "awesome"
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.46.0"
   },
