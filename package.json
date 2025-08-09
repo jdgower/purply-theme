@@ -1,28 +1,49 @@
 {
   "name": "purply-theme",
-  "displayName": "Purply",
+  "displayName": "Purply Theme",
   "publisher": "jeremy-gower",
-  "repository": "https://github.com/jdgower/purply-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdgower/purply-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdgower/purply-theme/issues"
+  },
+  "homepage": "https://github.com/jdgower/purply-theme#readme",
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#9479ed",
+    "color": "#8b5cf6",
     "theme": "dark"
   },
-  "description": "A light theme that attempts to look good. It is the purplyest of themes. There's also a dark version. It's OK.",
+  "description": "A beautiful, elegant VS Code theme featuring stunning purple gradients and carefully crafted syntax highlighting. Available in both light and dark variants with comprehensive language support.",
   "keywords": [
-    "light",
     "theme",
     "purple",
-    "color",
-    "awesome"
+    "elegant",
+    "beautiful",
+    "light",
+    "dark",
+    "syntax highlighting",
+    "color scheme",
+    "violet",
+    "modern",
+    "comprehensive",
+    "typescript",
+    "javascript",
+    "react",
+    "css",
+    "html",
+    "markdown",
+    "json"
   ],
-  "version": "1.0.5",
+  "version": "2.0.0",
   "engines": {
-    "vscode": "^1.46.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
   ],
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
@@ -32,9 +53,15 @@
       },
       {
         "label": "Purply (Dark)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-dark", 
         "path": "./themes/dark-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
   }
 }
