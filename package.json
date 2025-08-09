@@ -36,7 +36,7 @@
     "markdown",
     "json"
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -53,7 +53,7 @@
       },
       {
         "label": "Purply (Dark)",
-        "uiTheme": "vs-dark", 
+        "uiTheme": "vs-dark",
         "path": "./themes/dark-color-theme.json"
       }
     ]
