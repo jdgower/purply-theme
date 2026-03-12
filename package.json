@@ -62,7 +62,11 @@
     "package": "vsce package",
     "publish:vsce": "vsce publish",
     "publish:ovsx": "ovsx publish",
-    "publish:all": "npm run publish:vsce && npm run publish:ovsx"
+    "publish:all": "npm run publish:vsce && npm run publish:ovsx",
+    "release": "git tag v$(node -p \"require('./package.json').version\") && git push origin master --tags",
+    "release:patch": "npm version patch --no-git-tag-version && git add package.json && git commit -m \"$(node -p \"require('./package.json').version\")\" && npm run release",
+    "release:minor": "npm version minor --no-git-tag-version && git add package.json && git commit -m \"$(node -p \"require('./package.json').version\")\" && npm run release",
+    "release:major": "npm version major --no-git-tag-version && git add package.json && git commit -m \"$(node -p \"require('./package.json').version\")\" && npm run release"
   },
   "devDependencies": {
     "@vscode/vsce": "^2.22.0",
