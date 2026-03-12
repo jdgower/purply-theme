@@ -234,7 +234,7 @@
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#6b5b73",
+        "foreground": "#8b7b93",
         "fontStyle": "italic"
       }
     },
@@ -284,7 +284,7 @@
         "string.unquoted"
       ],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#f0a6ca"
       }
     },
 
@@ -296,7 +296,7 @@
         "string.template punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#f0a6ca"
       }
     },
 
@@ -484,7 +484,7 @@
         "meta.structure.array.json string.quoted.double"
       ],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#f0a6ca"
       }
     },
 
@@ -542,7 +542,7 @@
         "markup.fenced_code.block.markdown"
       ],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#f0a6ca"
       }
     },
 
@@ -585,7 +585,7 @@
         "punctuation.definition.comment.documentation"
       ],
       "settings": {
-        "foreground": "#6b5b73",
+        "foreground": "#8b7b93",
         "fontStyle": "italic"
       }
     },
@@ -639,8 +639,8 @@
     "macro": "#c4a7e7",
     "keyword": "#c678dd",
     "modifier": "#c678dd",
-    "comment": "#6b5b73",
-    "string": "#98c379",
+    "comment": "#8b7b93",
+    "string": "#f0a6ca",
     "number": "#ff79c6",
     "regexp": "#ff79c6",
     "operator": "#56b6c2",

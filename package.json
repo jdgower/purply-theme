@@ -59,9 +59,13 @@
     ]
   },
   "scripts": {
-    "package": "vsce package"
+    "package": "vsce package",
+    "publish:vsce": "vsce publish",
+    "publish:ovsx": "ovsx publish",
+    "publish:all": "npm run publish:vsce && npm run publish:ovsx"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.22.0"
+    "@vscode/vsce": "^2.22.0",
+    "ovsx": "^0.10.1"
   }
 }

@@ -1,2 +1,4 @@
 .history
 # /javascript.js
+node_modules
+*.vsix
