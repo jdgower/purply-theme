@@ -284,7 +284,7 @@
         "string.unquoted"
       ],
       "settings": {
-        "foreground": "#f0a6ca"
+        "foreground": "#98c379"
       }
     },
 
@@ -296,7 +296,7 @@
         "string.template punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#f0a6ca"
+        "foreground": "#98c379"
       }
     },
 
@@ -484,7 +484,7 @@
         "meta.structure.array.json string.quoted.double"
       ],
       "settings": {
-        "foreground": "#f0a6ca"
+        "foreground": "#98c379"
       }
     },
 
@@ -542,7 +542,7 @@
         "markup.fenced_code.block.markdown"
       ],
       "settings": {
-        "foreground": "#f0a6ca"
+        "foreground": "#98c379"
       }
     },
 
@@ -640,7 +640,7 @@
     "keyword": "#c678dd",
     "modifier": "#c678dd",
     "comment": "#8b7b93",
-    "string": "#f0a6ca",
+    "string": "#98c379",
     "number": "#ff79c6",
     "regexp": "#ff79c6",
     "operator": "#56b6c2",
